@@ -35,13 +35,13 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>AluraQuiz - Modelo Base</title>
+        <title>Quiz Fifa 21</title>
       </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>The legend of zelda</h1>
+            <h1>Fifa 21</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={function (infosDoEvento) {
