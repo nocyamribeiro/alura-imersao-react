@@ -1,12 +1,11 @@
 {
-  
-  "bg": "https://cdnstatic8.com/pichauarena.com.br/wp-content/uploads/2020/06/fifa-21-how-to-watch-ea-play.jpg.webp",
-  "title": "Quiz Fifa",
-  "description": "Teste os seus conhecimentos sobre Fifa",
+  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
+  "title": "Quiz CSS da Alura",
+  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Qual o botão no Xbox que faz o passe?",
+      "title": "Como fazer um seletor por id via CSS?",
       "description": "Essa é pra aquecer",
       "answer": 2,
       "alternatives": [
