@@ -1,29 +1,67 @@
 {
   
   "bg": "https://cdnstatic8.com/pichauarena.com.br/wp-content/uploads/2020/06/fifa-21-how-to-watch-ea-play.jpg.webp",
-  "title": "Quiz Fifa",
-  "description": "Teste os seus conhecimentos sobre Fifa",
+  "title": "Quiz Fifa XBOX",
+  "description": "Teste os seus conhecimentos sobre Fifa no Xbox",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "image": "https://cdn1.dotesports.com/wp-content/uploads/2020/08/13122309/FIFA-21-1.jpg",
       "title": "Qual o botão no Xbox que faz o passe?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "X",
+        "A",
+        "B",
+        "RT"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://hloooltech.com/blog/wp-content/uploads/2018/11/how-to-fake-pass-fifa19.jpg",
+      "title": "Qual é o comando para fazer o drible Fake shot no controle clássico?",
+      "description": "É um drible muito útil",
+      "answer": 2,
+      "alternatives": [
+        "A e depois RT + analógico esquerdo",
+        "X e depois A + analógico esquerdo",
+        "B e depois A + analógico esquerdo",
+        "B e depois A + analógico direito"
+      ]
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmh6gaWb11FSizvjQ1Za9yTip7OTykno1qOQ&usqp=CAU",
+      "title": "Quantas estrelas de drible o jogador precisa ter para efetuar o drible Ball Roll?",
+      "description": "Aquela roladinha clássica pro lado",
+      "answer": 1,
+      "alternatives": [
+        "uma estrela",
+        "duas estrelas",
+        "três estrelas",
+        "quatro estrelas"
+      ]
+    },
+    {
+      "image": "https://lh3.googleusercontent.com/PizSZA7etIgxYsD33UojD6-JAVeJPpNpICCBytTzfMbEQPB5E8oYrchii284UNLjxNCKCck=s149",
+      "title": "Comando para passe em profundidade?",
+      "description": "Aquele passe que deixa defesa perdida",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Y",
+        "A",
+        "B",
+        "X"
+      ]
+    },
+    {
+      "image": "https://i.ytimg.com/vi/qB-Xxc2Tdd0/sddefault.jpg",
+      "title": "Qual o comando para o drible Heel to Heel?",
+      "description": "Drible que usa o calcanhar e uma roladinha pra frente",
+      "answer": 3,
+      "alternatives": [
+        "Analógico da direita em direção à frente do jogador e depois em direção à esquerda do jogador.",
+        "Analógico da direita em direção à frente do jogador e depois em direção à direta do jogador.",
+        "Analógico da esquerda em direção à frente do jogador e depois em direção às costas do jogador.",
+        "Analógico da direita em direção à frente do jogador e depois em direção às costas do jogador."
       ]
     }
   ],

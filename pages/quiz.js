@@ -26,6 +26,7 @@ function QuestionWidget({
   questionIndex,
   totalQuestions,
   onSubmit,
+  setAlternativaSelecionada,
 }) {
   const questionId = `question__${questionIndex}`;
   return (
@@ -72,6 +73,7 @@ function QuestionWidget({
                   id={alternativeId}
                   name={questionId}
                   type="radio"
+                  onChange={() => setAlternativaSelecionada(alternativeIndex)}
                 />
                 {alternative}
               </Widget.Topic>
@@ -101,7 +103,8 @@ export default function QuizPage() {
   const [currentQuestion, setCurrentQuestion] = React.useState(0);
   const questionIndex = currentQuestion;
   const question = db.questions[questionIndex];
-
+  const [alternativaSelecionada, setAlternativaSelecionada] = React.useState('');
+  const [qtdAcertos, setQtdAcertos] = React.useState(0);
   // [React chama de: Efeitos || Effects]
   // React.useEffect
   // atualizado === willUpdate
@@ -116,6 +119,12 @@ export default function QuizPage() {
 
   function handleSubmitQuiz() {
     const nextQuestion = questionIndex + 1;
+    if (alternativaSelecionada === question.answer) {
+      alert('Você acertou, parabéns!!');
+      setQtdAcertos(qtdAcertos + 1);
+    } else {
+      alert('Infelizmente você errou :(');
+    }
     if (nextQuestion < totalQuestions) {
       setCurrentQuestion(nextQuestion);
     } else {
@@ -133,12 +142,13 @@ export default function QuizPage() {
             questionIndex={questionIndex}
             totalQuestions={totalQuestions}
             onSubmit={handleSubmitQuiz}
+            setAlternativaSelecionada={setAlternativaSelecionada}
           />
         )}
 
         {screenState === screenStates.LOADING && <LoadingWidget />}
 
-        {screenState === screenStates.RESULT && <div>Você acertou X questões, parabéns!</div>}
+        {screenState === screenStates.RESULT && <div>{`Você acertou ${qtdAcertos} questões, parabéns!`}</div>}
       </QuizContainer>
     </QuizBackground>
   );
