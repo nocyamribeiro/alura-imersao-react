@@ -41,8 +41,8 @@ function ResultWidget({ results }) {
               {' '}
               Resultado:
               {result === true
-                ? 'Acertou'
-                : 'Errou'}
+                ? ' Acertou'
+                : ' Errou'}
             </li>
           ))}
         </ul>
@@ -59,7 +59,7 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+        <img alt="Carregando" width="100%" src="https://media.giphy.com/media/fr47mfwZh7FwTTnaTk/giphy.gif" />
       </Widget.Content>
     </Widget>
   );
