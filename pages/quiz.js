@@ -11,7 +11,6 @@ import Button from '../src/components/Button';
 
 function ResultWidget({ results }) {
   const router = useRouter();
-  console.log(router.query.name);
   return (
     <Widget>
       <Widget.Header>
