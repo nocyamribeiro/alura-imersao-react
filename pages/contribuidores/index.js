@@ -47,7 +47,11 @@ export default function ContributorsPage({ contributors }) {
       <QuizContainer style={{ margin: 'auto', padding: '5%', maxWidth: '1400px' }}>
         <QuizLogo />
         <Widget style={{ maxWidth: '350px', marginLeft: 'auto', marginRight: 'auto' }}>
+<<<<<<< HEAD
           <Widget.Header sytle={{ justifyContent: 'center' }}>
+=======
+          <Widget.Header style={{ justifyContent: 'center' }}>
+>>>>>>> main
             <h1 style={{ fontSize: '25px' }}>Galeria de Projetos</h1>
           </Widget.Header>
           <Widget.Content>

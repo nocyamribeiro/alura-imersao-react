@@ -1,2 +1,6 @@
 hermeshcg
+<<<<<<< HEAD
 https://alura-quiz-basquete-9akoxhbip.vercel.app
+=======
+https://alura-quiz-basquete.vercel.app
+>>>>>>> main
