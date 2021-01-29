@@ -1,18 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import Head from 'next/head';
-<<<<<<< HEAD
-=======
 import { motion } from 'framer-motion';
->>>>>>> main
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
 import Widget from '../src/components/Widget';
-<<<<<<< HEAD
-=======
 import Link from '../src/components/Link';
->>>>>>> main
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
@@ -45,13 +39,6 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-<<<<<<< HEAD
-        <title>{db.title}</title>
-      </Head>
-      <QuizContainer>
-        <QuizLogo />
-        <Widget>
-=======
         <title>
           AluraQuiz -
           {db.title}
@@ -69,7 +56,6 @@ export default function Home() {
           initial="hidden"
           animate="show"
         >
->>>>>>> main
           <Widget.Header>
             <h1>{db.title}</h1>
           </Widget.Header>
@@ -94,16 +80,6 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-<<<<<<< HEAD
-        <Widget>
-          <Widget.Content>
-            <h1>Quizes da Galera</h1>
-
-            <p>lorem ipsum dolor sit amet...</p>
-          </Widget.Content>
-        </Widget>
-        <Footer />
-=======
         <Widget
           as={motion.section}
           transition={{ delay: 0.5, duration: 0.5 }}
@@ -149,7 +125,6 @@ export default function Home() {
           initial="hidden"
           animate="show"
         />
->>>>>>> main
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>

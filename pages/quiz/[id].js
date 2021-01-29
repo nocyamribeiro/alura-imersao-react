@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-
-export default function QuizDaGaleraPage() {
-  return (
-    <div>
-      Desafio da próxima aula junto com as animações
-    </div>
-  );
-}
-=======
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from 'react';
@@ -59,4 +48,3 @@ export async function getServerSideProps(context) {
     throw new Error(err);
   }
 }
->>>>>>> main
