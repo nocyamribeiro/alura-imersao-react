@@ -105,7 +105,8 @@ export default function Home() {
                   <li key={linkExterno}>
                     <Widget.Topic
                       as={Link}
-                      href={`/quiz/${projectName}___${githubUser}`}
+                      href={name.length === 0 ? '#' : `/quiz/${projectName}___${githubUser}`}
+                      disabled={name.length === 0}
                     >
                       {`${githubUser}/${projectName}`}
                     </Widget.Topic>
@@ -126,7 +127,7 @@ export default function Home() {
           animate="show"
         />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/omariosouto" />
+      <GitHubCorner projectUrl="https://github.com/nocyamribeiro/alura-imersao-react/" />
     </QuizBackground>
   );
 }
